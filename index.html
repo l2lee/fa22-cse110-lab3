@@ -75,18 +75,19 @@
                 <ol>
                     <li>
                         <h4>Sticky Notes</h4>
+
+                        <ul>
+                            <li>The emphasis of this project will be on the <em>ease of use</em> of the program</li>
+                            <li><img src="https://conceptboard.com/wp-content/uploads/Kanban-board-Digital-Sticky-notes.png"
+                                    alt="Sample sticky notes"></li>
+                            <li>
+                                <details>
+                                    <summary> CRUD elements</summary>
+                                    Users can create multiple sticky notes, edit them, delete them.
+                                </details>
+                            </li>
+                        </ul>
                     </li>
-                    <ul>
-                        <li>The emphasis of this project will be on the <em>ease of use</em> of the program</li>
-                        <li><img src="https://conceptboard.com/wp-content/uploads/Kanban-board-Digital-Sticky-notes.png"
-                                alt="Sample sticky notes"></li>
-                        <li>
-                            <details>
-                                <summary> CRUD elements</summary>
-                                Users can create multiple sticky notes, edit them, delete them.
-                            </details>
-                        </li>
-                    </ul>
 
 
 
@@ -125,13 +126,14 @@
         <section>
             <h2>Questions</h2>
             <ul>
-                <li>Will the next meeting by in person or by zoom?</li>
-                <ul>
-                    <li>The next meeting will be hybrid, we will meet in the CSE basement but also have a zoom call for
-                        those
-                        who unable to be there in person</li>
-                </ul>
-
+                <li>Will the next meeting by in person or by zoom?
+                    <ul>
+                        <li>The next meeting will be hybrid, we will meet in the CSE basement but also have a zoom call
+                            for
+                            those
+                            who unable to be there in person</li>
+                    </ul>
+                </li>
             </ul>
         </section>
 
@@ -139,15 +141,17 @@
         <section>
             <h2>Recording of Meeting</h2>
             <ul>
-                <li>Audio</li>
-                <ul>
-                    <li><audio controls src="walking_aud.m4a"></audio></li>
-                </ul>
+                <li>Audio
+                    <ul>
+                        <li><audio controls src="walking_aud.m4a"></audio></li>
+                    </ul>
+                </li>
+                <li>Video
+                    <ul>
+                        <li><video controls src="walking_vid.MOV" type="video/MOV"></video></li>
+                    </ul>
+                </li>
 
-                <li>Video</li>
-                <ul>
-                    <li><video controls src="walking_vid.MOV" type="video/MOV"></video></li>
-                </ul>
             </ul>
         </section>
 
@@ -184,9 +188,9 @@
                 </fieldset>
 
                 <br>
+                <label for="money_select">Select the amount of money you would pay for ramen</label>
                 <select name="money" id="money_select">
-                    <label for="money_select">How much would you pay for ramen</label>
-                    <option value="">How much would you pay for ramen</option>
+                    <option value=""> Select below </option>
                     <option value="instant"> Sub 10$ </option>
                     <option value="cheap"> 10$ to 20$ </option>
                     <option value="pricey"> >20$ </option>
