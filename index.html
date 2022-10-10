@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Lab02 - Meeting Minutes</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+</head>
+
+
+<body>
+
+
+    <h1>CRUD Software Brainstorm</h1>
+    <main>
+        <section class="logistics">
+            <h2>Attendance</h2>
+            <div>
+                <form>
+                    <input type="checkbox" id="Me">
+                    <label for="Me"> Me</label><br>
+                    <input type="checkbox" id="Myself">
+                    <label for="Myself"> Myself</label><br>
+                    <input type="checkbox" id="I">
+                    <label for="I">I</label><br><br>
+                </form>
+            </div>
+
+            <hr>
+
+            <section>
+                <h2>Recap</h2>
+                <p>Last time we went over self introductions. If you haven't already, intorduce yourself in the slack
+                    channel with the given prompt and be sure to respond to atleast 2 other people's introduction in
+                    threads.
+                </p>
+                <h3>Unifinished business</h3>
+                <p>From last time, we didn't get to announce the roles. The roles have been sent out in an email earlier
+                    this morning so be sure to check that.</p>
+
+                <h3>Updates</h2>
+                    <p>After meeting with the TA, it turns out we don't know if everyone will have the same project or
+                        not.
+                        As such we will still have our brainstorming session today as discussed and potentially revise
+                        the
+                        list as more information about the project is released</p>
+            </section>
+
+            <hr>
+            <h2>Agenda</h2>
+            The point of this meeting is think a <i>little</i> bit about what we are going to do for the upcoming
+            <b>CSE110 Project</b>
+            <nav>
+                <ol>
+                    <li>
+                        <a href="#brainstorm">Project idea brainstorm</a>
+                    </li>
+                    <li><a href="#examples">Past demos</a></li>
+                    <li><a href="#next">Deliverables due next week</a></li>
+                </ol>
+            </nav>
+
+        </section>
+
+        <hr>
+
+        <section id="brainstorm">
+            <h2>Brainstorming</h2>
+            <h3>October 8, 2022</h3>
+
+            <div>
+                <ol>
+                    <li>
+                        <h4>Sticky Notes</h4>
+                    </li>
+                    <p>The emphasis of this project will be on the <em>ease of use</em> of the program</p>
+                    <img src="https://conceptboard.com/wp-content/uploads/Kanban-board-Digital-Sticky-notes.png"
+                        alt="Sample sticky notes">
+                    <details>
+                        <summary> CRUD elements</summary>
+                        Users can create multiple sticky notes, edit them, delete them.
+                    </details>
+                    <li>
+                        <h4>Shareable Bookmarks</h4>
+                    </li>
+                    <li>
+                        <h4>Instagram but not Instagram</h4>
+                    </li>
+                </ol>
+            </div>
+
+        </section>
+
+        <section id='examples'>
+            <h2>Examples</h3>
+                <div>
+                    <ol>
+                        <li><a href="https://www.google.com">Fall 2021</a></li>
+                    </ol>
+                </div>
+        </section>
+
+        <hr>
+
+        <section id='next'>
+            <h2>Things to do before next meeting</h2>
+            <ul>
+                <li>Vote on poll for what bonding activity to do next meeting on slack</li>
+                <li>Submit team evaluation by <strong>Monday, 11:59pm</strong></li>
+            </ul>
+        </section>
+
+
+
+        <section>
+            <h2>Questions</h2>
+            <ul>
+                <li>Will the next meeting by in person or by zoom?</li>
+                <p>The next meeting will be hybrid, we will meet in the CSE basement but also have a zoom call for those
+                    who unable to be there in person</p>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>Recording of Meeting</h2>
+            <ul>
+                <li>Audio</li>
+                <audio controls src="walking_aud.m4a"></audio>
+                <li>Video</li>
+                <video controls src="walking_vid.MOV" type="video/MOV"></video>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Form</h2>
+            <form action="">
+                <label for="lmao">What is your favorite food? </label>
+                <input type="text" id="lmao">
+                <label for="food_explanation">Why is that your favorite food?</label>
+                <textarea name="food explanation" id="food_explanation" cols="33" rows="5">Because I like it</textarea>
+                <br>
+                <fieldset>
+
+
+                    <legend>Choose your favorite type of ramen</legend>
+
+
+                    <input list="ramen list" id="ramen choice">
+                    <datalist id="ramen list">
+                        <option value="Tonkotsu"></option>
+                        <option value="Shoyu"></option>
+                        <option value="Shio"></option>
+                        <option value="Gyoukai"></option>
+                        <option value="Chicken"></option>
+
+                    </datalist>
+                    <br>
+                    <input type="radio" id="ramen random">
+                    <label for="ramen random"> I don't like Ramen</label>
+
+
+                </fieldset>
+
+                <select name="money" id="money select">
+                    <option value="">How much would you pay for ramen</option>
+                    <option value="instant"> Sub 10$ </option>
+                    <option value="cheap"> 10$ to 20$ </option>
+                    <option value="pricey"> >20$ </option>
+                    <option value="expensive"> >30$ </option>
+
+                </select>
+
+                <input type="date">
+
+                <button>Submit Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Author: Lucas <span>Lee</span></p>
+    </footer>
+</body>
+
+</html>
