@@ -4,6 +4,10 @@
     }
 }
 
+* {
+    color: black;
+}
+
 html {
     
     font-size: 13pt;
@@ -60,8 +64,9 @@ h2 {
    
 }
 
-.box-auto {
+#box-auto {
     margin: auto;
+    color: green;
 }
 
 
@@ -143,6 +148,41 @@ button:active {
 p {
     font-family: 'Source Code Pro';
 }
+
+a[href='https://www.google.com'] {
+    color: red;
+}
+
+i, 
+em {
+    font-size: 40px;
+}
+
+details summary {
+    color: yellowgreen;
+}
+
+section > h2 {
+    color: lightcoral;
+}
+
+input ~ label {
+    color: darkolivegreen;
+}
+
+li + li {
+    color: darkkhaki;
+}
+
+h2.brainstorm {
+    color: brown;
+}
+
+
+
+
+
+
 
 
 
