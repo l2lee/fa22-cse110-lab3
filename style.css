@@ -1,4 +1,156 @@
-h1 {
-    background-color: aquamarine;
+@media screen and (max-width: 400px) {
+    h1 {
+        background-color: purple;
+    }
 }
+
+html {
+    
+    font-size: 13pt;
+}
+h1 {
+    background-color: rgb(74, 242, 161);
+    color: rgb(86, 59, 59);
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 20vh;
+}
+
+h2 {
+    background-color: hsl(195, 33%, 59%);
+    
+}
+
+
+.box-long {
+    /* includes margin long style */
+    margin-top: 5mm;
+    margin-left: 10mm;
+    margin-right: 10mm;
+    margin-bottom: 5mm;
+
+    /* includes padding long style */
+    padding-top: 30Q;
+    padding-left: 45Q;
+    padding-right: 45px;
+    padding-bottom: 30px;
+
+
+    /* includes border long style */
+    border-left-color: blueviolet;
+    border-left-style: solid;
+    border-left-width: 20px;
+    border-top-left-radius: 10px;
+
+}
+
+.box-short {
+    /* includes margin short style */
+    margin: 5px 10px 5px 10px;
+
+    /* includes padding short style */
+    padding: 30px 45px 30px 45px;
+
+
+    /* includes border short style */
+    border-style: dotted;
+    border-width: 20px;
+    border-radius: 10px;
+    border-color: #6638f0;
+   
+}
+
+.box-auto {
+    margin: auto;
+}
+
+
+ul {
+  
+    font-size: 1.2em;
+}
+
+ol {
+    font-size: 1.2rem;
+}
+audio {
+    height: 5vh;
+    width: 20vw;
+} 
+
+video {
+    min-width: 5vw;
+    max-width: 40vw;
+    max-height: 50vh;
+}
+
+img {
+    display: block;
+    height: 40vh;
+    position: sticky;
+}
+
+h3 {
+    display: inline-block;
+    position: relative;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+button:active {
+    background-color: blue;
+}
+
+.flex-container {
+    background: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-child {
+    background-color: orange;
+    order: 3;
+    flex-basis: auto;
+    align-self: flex-start;
+    flex-grow: 2;
+}
+
+.grid-container {
+    background: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-child {
+    background-color: orange;
+    grid-row-start: 5;
+    grid-row-end: 10;
+}
+
+.grid-child-1 {
+    background-color: orange;
+    grid-column-start: 2;
+    
+}
+
+.grid-child-2 {
+    background-color: orange;
+    grid-column-end: 4;
+    
+}
+
+p {
+    font-family: 'Source Code Pro';
+}
+
+
+
+
+
+
+
+
+
+
 
